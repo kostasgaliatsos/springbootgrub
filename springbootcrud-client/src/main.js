@@ -58,6 +58,10 @@ Vue.mixin({
     },
     getPersons () {
       return this.$http.get('persons?size=1000')
+    },
+    // kostas: add method to fetch suppliers
+    getSuppliers () {
+      return this.$http.get('suppliers?size=1000')
     }
   }
 })

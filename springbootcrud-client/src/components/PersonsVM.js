@@ -74,6 +74,10 @@ export default {
           console.log('error: ')
           console.log(e)
         })
+    },
+    clear () {
+      this.query = ''
+      this.refreshPersons()
     }
   }
 }

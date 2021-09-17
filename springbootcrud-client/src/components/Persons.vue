@@ -20,6 +20,10 @@
               <el-button
                 class="el-button--primary"
                 @click="refreshPersons()">Search</el-button>
+                <!-- kostas: added clear button -->
+                <el-button
+                class='el-button--danger'
+                @click='clear()'>Clear</el-button>
               </el-col>
             </el-row>
             <el-table

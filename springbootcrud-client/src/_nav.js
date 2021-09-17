@@ -9,6 +9,12 @@ export default {
       name: 'Persons',
       url: '/persons',
       icon: 'icon-calendar'
+    },
+    // kostas: add suppliers to navigation
+    {
+      name: 'Suppliers',
+      url: '/suppliers',
+      icon: 'icon-calendar'
     }
   ]
 }

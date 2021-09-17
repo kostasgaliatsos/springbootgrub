@@ -156,6 +156,6 @@ function initPerson () {
     gender: null,
     email: '',
     comments: '',
-    active: true,
+    active: true
   }
 }
